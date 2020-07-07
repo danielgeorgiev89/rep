@@ -1,1 +1,48 @@
-body {background-color: darkgrey;}
+/* ------------ RESETING PAGE --------- */
+* {
+    padding: 0px;
+    box-sizing: border-box;
+    margin: 0;
+}
+/* ------------ NAVBAR ------------ */
+
+body {background-color: lightgray;}
+
+nav {
+    background-color: darkgray;
+    
+}
+
+.navbar {
+    height: 8vh;
+}
+
+.navbar ul {
+    line-height: 8vh;
+    display: flex;
+    justify-content: space-around;
+    max-width: 50%;
+    margin: 0 auto;
+}
+/* ------------ SECTION ------------ */
+section {
+    min-height: 600px;
+}
+/* ------------ FOOOTER ------------ */
+
+footer {
+    background-color: darkgray;
+    
+}
+
+.footer {
+    height: 8vh;
+}
+
+.footer ul {
+    line-height: 8vh;
+    display: flex;
+    justify-content: space-around;
+    max-width: 50%;
+    margin: 0 auto;
+}
